@@ -79,7 +79,19 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
-        
+
+        buildcontrol:
+
+            options:
+                dir: 'dist'
+                commit: true
+                push: true
+                message: 'Built from %sourceCommit% on branch %sourceBranch%'
+            pages:
+                options:
+                    remote: 'git@github.com:dalbelap/revealjs-muei-tfm.git'
+                    branch: 'gh-pages'
+ 
 
 
     # Load all grunt tasks.
@@ -121,6 +133,12 @@ module.exports = (grunt) ->
             'copy'
         ]
 
+
+    grunt.registerTask 'deploy',
+        'Deploy to Github Pages', [
+            'dist'
+            'buildcontrol'
+        ]
     
 
     # Define default task.
