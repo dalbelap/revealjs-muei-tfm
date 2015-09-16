@@ -3,9 +3,9 @@
 1. Plataforma escalable para almacenamiento de imágenes
     ###### Cassandra & Solr
 2. Recuperación de imágenes basada en contenido<!-- .element: class="fragment" data-fragment-index="1" -->
-    ###### Estudio de descriptores (MPEG-7, PHOG, CEDD, etc)<!-- .element: class="fragment" data-fragment-index="1" -->
+    ###### estudio de descriptores (MPEG-7, PHOG, CEDD, etc)<!-- .element: class="fragment" data-fragment-index="1" -->
 3. API RESTful<!-- .element: class="fragment" data-fragment-index="3" -->
-    ###### Front-end en JavaScript<!-- .element: class="fragment" data-fragment-index="3" -->
+    ###### front-end en JavaScript<!-- .element: class="fragment" data-fragment-index="3" -->
 
 Note:
     1. Uso de NoSQL Cassandra y motor para búsquedas web con DataStax Enterprise Search

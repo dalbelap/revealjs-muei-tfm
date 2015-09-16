@@ -1,7 +1,7 @@
 ### Trabajo Futuro
 ----------------
 1. Integrar Lire en Solr
-    ##### Plugin [liresolr](https://bitbucket.org/dermotte/liresolr) + DSE Search
+    ##### plugin [liresolr](https://bitbucket.org/dermotte/liresolr) + DSE Search
 2. Clasificación de imágenes<!-- .element: class="fragment" data-fragment-index="1" -->
     ##### DSE Analytics<!-- .element: class="fragment" data-fragment-index="1" -->
 3. HATEOAS<!-- .element: class="fragment" data-fragment-index="2" --> (*Hypermedia as the Engine of Application State*)<!-- .element: class="fragment" data-fragment-index="2" -->
