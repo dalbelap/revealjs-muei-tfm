@@ -4,8 +4,8 @@
 2. Aplicación base<!-- .element: class="fragment" data-fragment-index="2" -->
 3. Almacenamiento<!-- .element: class="fragment" data-fragment-index="3" -->
 4. Extracción de metadatos<!-- .element: class="fragment" data-fragment-index="4" -->
-5. Indexación descriptores de imagen<!-- .element: class="fragment" data-fragment-index="5" -->
-6. Integración de Solr<!-- .element: class="fragment" data-fragment-index="6" -->
+5. Indexación de descriptores visuales<!-- .element: class="fragment" data-fragment-index="5" -->
+6. Integración con Solr<!-- .element: class="fragment" data-fragment-index="6" -->
 7. Recuperación de imágenes<!-- .element. class="fragment" data-fragment-index="7" -->
 
 note:

@@ -1,11 +1,10 @@
 ### ![Cassandra](resources/logo_cassandra.png)<!-- .element: style="border:0px; box-shadow: 0 0 0 rgba(0, 0, 0, 0); vertical-align: middle;" --> Apache Cassandra
 -------------
-- Base de Datos NoSQL
-    ###### Software libre <!-- .element: class="fragment" data-fragment-index="1" -->
+- Base de Datos NoSQL *clave-valor*
     ###### Java / Facebook en 2010<!-- .element: class="fragment" data-fragment-index="2" -->
-    ###### Escalable y tolerante a fallos<!-- .element: class="fragment" data-fragment-index="3" -->
+    ###### escalabilidad lineal y tolerante a fallos<!-- .element: class="fragment" data-fragment-index="3" -->
 - DataStax <!-- .element: class="fragment" data-fragment-index="4" -->![Cassandra](resources/logo_datastax.png)<!-- .element: style="border:0px; box-shadow: 0 0 0 rgba(0, 0, 0, 0); vertical-align: bottom;" --> <!-- .element: class="fragment" data-fragment-index="4" -->
-    ###### Consultas CQL y Java Driver <!-- .element: class="fragment" data-fragment-index="5" -->
+    ###### consultas CQL y Java Driver <!-- .element: class="fragment" data-fragment-index="5" -->
     ###### <!-- .element: class="fragment" data-fragment-index="6" -->*Community* y *Enterprise Edition*<!-- .element: class="fragment" data-fragment-index="6" -->
 
 note:

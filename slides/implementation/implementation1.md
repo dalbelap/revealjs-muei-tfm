@@ -10,9 +10,8 @@ public Page<Picture> findByOwner(String owner, Pageable pageable) {
   List<Picture> pictures = pictureAccesor.
     findSolrQueryOrdered(query, pageable.getPageSize()).all();
 
-  long total = generalCounterAccessor.
-    getPictureCounter(Calendar.getInstance().get(Calendar.YEAR))
-        .one().getLong("picture_counter");
+  long total = userCounterAccessor.
+    getPictureCounter(owner).one().getLong("picture_counter");
 
   return new PageImpl<>(pictures, pageable, total);
 }
