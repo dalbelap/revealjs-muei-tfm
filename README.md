@@ -1,7 +1,7 @@
 TFM Presentation for MUEI
 =========================
 
-This is a presentation from the final project of MUEI at Universidade da Coruña, September 2015.
+This is a presentation from the final project from [MUEI](www.fic.udc.es/muei) at Universidade da Coruña, September 2015.
 
 
 [Here](http://seguridadydesarrolloeinnovacion.blogspot.com.es/2015/09/revealjs-html5-ideal-para-presentaciones.html) it is explained how was created these slides, it was created with RevealJs using the Yeoman [generator-reveal](https://github.com/slara/generator-reveal) from slara.
