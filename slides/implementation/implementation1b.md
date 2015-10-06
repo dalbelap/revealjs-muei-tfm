@@ -1,5 +1,6 @@
 ### Interfaces Accessor
 ----------------
+[PictureAccessor.java](https://github.com/dalbelap/flipper-reverse-image-search/blob/master/src/main/java/gal/udc/fic/muei/tfm/dap/flipper/repository/PictureAccessor.java)
 ```java
 @Accessor
 public interface PictureAccessor {
@@ -12,8 +13,7 @@ public interface PictureAccessor {
 }
 ```
 
---------------------------
-
+[GeneralCounterAccessor.java](https://github.com/dalbelap/flipper-reverse-image-search/blob/master/src/main/java/gal/udc/fic/muei/tfm/dap/flipper/repository/GeneralCounterAccessor.java)
 ```java
     @Query("SELECT picture_counter FROM " +
         "user_counter WHERE user = :user")
