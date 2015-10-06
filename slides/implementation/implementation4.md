@@ -1,20 +1,13 @@
-### *LireBuilder.search()*
+### *Infinite scroll*
 -----------------
-```java
-ImageSearcher searcher = new GenericFastImageSearcher(maxHits,
-    feature.getValueClass());
-
-// searching with a image file
-ImageSearchHits hits = searcher.search(inputStream, indexReader);
-
-// Get results ordered by score
-for (int i = 0; i < hits.length(); i++)
+[picture.controller.js](https://github.com/dalbelap/flipper-reverse-image-search/blob/master/src/main/webapp/scripts/app/entities/picture/picture.controller.js)
+```javascript
+$scope.loadAll = function() {
+Picture.query({page: $scope.page, size: 20}, function(result, headers)
 {
-    float score = hits.score(i);
-
-    LirePictureSortable lp = new LirePictureSortable(
-    UUID.fromString(hits.doc(i).
-        getValues(DocumentBuilder.FIELD_NAME_IDENTIFIER)[0]),
-        score, feature);
-}
+      $scope.links = ParseLinks.parse(headers('link'));
+      for (var i = 0; i < result.length; i++) {
+         $scope.pictures.push(result[i]);
+      }
+});
 ```

@@ -1,5 +1,6 @@
 ### Indexación de Descriptores con Lire
 -----------------
+[LireBuilder.luceneIndexer(BufferedImage image, ...)](https://github.com/dalbelap/flipper-reverse-image-search/blob/master/src/main/java/gal/udc/fic/muei/tfm/dap/flipper/service/util/cbir/LireBuilder.java)
 ```java
 IndexWriter indexWriter = new IndexWriter(dir, conf);
 
